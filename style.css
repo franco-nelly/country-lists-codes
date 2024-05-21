@@ -4,14 +4,27 @@
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
-.container{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #000;
 }
-.container a button{
+.container a .country-codes{
+    background-color: green;
+    width: 12cm;
+    height: 2cm;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gray;
+}
+.container a .JavaScript{
     background-color: green;
     width: 12cm;
     height: 2cm;
